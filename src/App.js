@@ -1,8 +1,10 @@
+import Table from "./components/Table";
 
 function App() {
   return (
-    <div className="App">
-      Me
+    <div className="departures">
+      <header>Departures</header>
+      <Table/>
     </div>
   );
 }
